@@ -5,10 +5,10 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-docutils = "*"
 django-environ = "*"
 dj-database-url = "*"
 dj-static = "*"
-docutils = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
 python-decouple = "*"
@@ -25,3 +25,4 @@ python_full_version = "3.11.2"
 
 [scripts]
 start = "python manage.py runserver"
+superuser = "python manage.py superuser"
